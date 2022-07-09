@@ -16,7 +16,7 @@ For the exploitation of these attacks, the Ubuntu 18.04 client was used, with th
 
 Change the URL parameter to the one of the target. Note that based on the capabilities of the targeted server, different values maybe needed for timeout and sleep commands. The same occur the seq and xargs values that are now at 100.
 
-====================================================================================
+====================================================
 
 MIT License
 

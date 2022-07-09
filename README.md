@@ -3,7 +3,7 @@
 The current repository serves the purpose of sharing the scripts we used for educational usage. These attacks were a part of our study (check [here](https://doi.org/10.21203/rs.3.rs-1676730/v1)), and were tested against 6 different QUIC-enabled servers (IIS, NGINX, LiteSpeed, Cloudflare, H2O, and Caddy). The quic-loris script is the exploit of the **CVE-2022-30591** issue that affected quic-go library. This script can also be exploited against Caddy server.
 
 ## Installation procedure
-For the exploitation of these attacks, the Ubuntu 18.04 client was used, with the assist of aioquic Python library.
+For the exploitation of these attacks, the Ubuntu 18.04 client was used, with the assist of aioquic Python library for QUIC-loris and QUIC-Flooding. For QUIC-hash attack, the Scapy Python library v2.4.3 was used (pip install scapy==2.4.3). The following instructions occur the aioquic installation, for the QUIC-loris and QUIC-Flooding assaults.
 
 1. git clone https://github.com/aiortc/aioquic
 2. sudo apt install libssl-dev
@@ -20,7 +20,7 @@ Change the URL parameter to the one of the target. Note that based on the capabi
 
 MIT License
 
-Copyright (c) 2022 efchatz
+Copyright (c) 2022 Efstratios Chatzoglou (efchatz)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

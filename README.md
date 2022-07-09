@@ -16,6 +16,8 @@ For the exploitation of these attacks, the Ubuntu 18.04 client was used, with th
 
 Change the URL parameter to the one of the target. Note that based on the capabilities of the targeted server, different values maybe needed for timeout and sleep commands. The same occur the seq and xargs values that are now at 100.
 
+**Based on the work: Chatzoglou.E, Kouliaridis V., Karopoulos G., and Kambourakis G.**, ["Revisiting QUIC attacks: A comprehensive review on QUIC security and a hands-on study"](https://doi.org/10.21203/rs.3.rs-1676730/v1) **in ResearchSquare, doi:10.21203/rs.3.rs-1676730/v1**.
+
 ====================================================
 
 MIT License

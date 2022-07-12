@@ -22,7 +22,7 @@ Change the URL parameter to the one of the target. Note that based on the capabi
 
 MIT License
 
-Copyright (c) 2022 Efstratios Chatzoglou (efchatz)
+Copyright (c) 2022 Efstratios Chatzoglou
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
